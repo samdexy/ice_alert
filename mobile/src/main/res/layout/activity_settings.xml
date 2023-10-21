@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/gradient"
+            android:paddingTop="25dp"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnBackSettings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_arrow"
+            android:layout_marginStart="28dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_available"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/button_cancel"
+            android:paddingLeft="30dp"
+            android:text="Answer if available"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_unavailable"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/button_cancel"
+            android:paddingLeft="30dp"
+            android:text="Answer if unavailable"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_message"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/button_cancel"
+            android:paddingLeft="30dp"
+            android:text="My message"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
